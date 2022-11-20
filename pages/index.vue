@@ -1,5 +1,5 @@
 <template>
-  <h2>Home</h2>
+  <h1>Home</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, autem cupiditate ea excepturi itaque iusto
     natus non optio porro quae quidem similique ut voluptatem. Asperiores labore nesciunt rerum saepe voluptas?</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cum cumque natus nisi odio quis quod tempore,
@@ -10,7 +10,7 @@
 </script>
 
 <style scoped>
-h2 {
+h1 {
   margin-bottom: 20px;
   font-size: 36px;
 }

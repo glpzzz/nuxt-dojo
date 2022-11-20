@@ -1,5 +1,5 @@
 <template>
-  <h2>About</h2>
+  <h1>About</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, autem cupiditate ea excepturi itaque iusto
     natus non optio porro quae quidem similique ut voluptatem. Asperiores labore nesciunt rerum saepe voluptas?</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cum cumque natus nisi odio quis quod tempore,
