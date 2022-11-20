@@ -1,21 +1,12 @@
 <template>
   <SiteHeader/>
-  <slot/>
-  <footer>
-    <SiteHeader/>
+  <main class="container mx-auto p-4">
+    <slot />
+  </main>
+  <footer class="container mx-auto p-4">
+    This is a product page
   </footer>
 </template>
 
 <script setup>
 </script>
-
-<style>
-h1 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-p {
-  margin: 20px 0;
-}
-</style>

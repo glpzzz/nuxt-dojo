@@ -1,18 +1,9 @@
 <template>
   <SiteHeader/>
-  <slot />
+  <main class="container mx-auto p-4">
+    <slot />
+  </main>
 </template>
 
 <script setup>
 </script>
-
-<style>
-h1 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-p {
-  margin: 20px 0;
-}
-</style>
