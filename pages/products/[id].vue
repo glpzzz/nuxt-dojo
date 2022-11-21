@@ -1,14 +1,5 @@
 <template>
-  <article v-if="product">
-    <h1>
-      {{ product.title }}
-      <small>{{ product.category }}</small>
-    </h1>
-    <p>
-      <img :src="product.image" alt="`Image of ${product.title}`"/>
-    </p>
-    <p>{{ product.description }}</p>
-  </article>
+  <ProductDetails v-if="product" :product="product" />
 </template>
 
 <script setup>
