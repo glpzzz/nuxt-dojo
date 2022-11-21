@@ -13,6 +13,7 @@ if (!product.value) {
   throw createError({
     statusCode: 404,
     statusMessage: 'Product not found',
+    fatal: true,
   })
 }
 </script>
