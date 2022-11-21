@@ -13,5 +13,8 @@ export default defineNuxtConfig({
                 {rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'},
             ]
         }
+    },
+    runtimeConfig: {
+        apiKey: process.env.API_KEY,
     }
 })
