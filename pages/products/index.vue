@@ -2,6 +2,7 @@
   <h1>Products</h1>
   <ul class="grid grid-cols-4 gap-5">
     <li v-for="p in products" :key="p.id">
+      <img :src="p.image" :alt="`Image of ${p.title}`" />
       <NuxtLink :to="`/products/${p.id}`">{{ p.title }}</NuxtLink>
     </li>
   </ul>
